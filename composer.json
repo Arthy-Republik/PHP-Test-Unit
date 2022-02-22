@@ -1,0 +1,28 @@
+{
+    "name": "campus/unit_test",
+    "description": "Package to learn how to create unit test with PHPUNIT",
+    "type": "project",
+   
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Campus\\UnitTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arthur Broussoux",
+            "email": "abroussoux@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "fakerphp/faker": "^1.19",
+        "phpro/grumphp": "^1.8"
+},
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp": true
+        }
+    }
+}
